@@ -46,6 +46,8 @@ export default Checkbox;
 
 App.js
 ```JS
+import Checkbox from './Checkbox';
+
 document.querySelectorAll('.js-checkbox').forEach($el => {
     const checkbox = new Checkbox($el, {
         on: {
@@ -65,7 +67,7 @@ document.querySelectorAll('.js-checkbox').forEach($el => {
 
 index.html
 ```HTML
-<<!DOCTYPE html>
+<!DOCTYPE html>
 <html>
 <head>
     <meta charset="utf-8">
