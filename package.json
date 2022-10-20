@@ -19,12 +19,15 @@
   "exports": {
     ".": "./component-element.js",
     "./component-events": "./component-events.js",
-    "./component-base": "./component-base.js",
+    "./component-base": "./component-base.js"
   },
   "author": "neomasterr",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/neomasterr/component-element/issues"
   },
-  "homepage": "https://github.com/neomasterr/component-element#readme"
+  "homepage": "https://github.com/neomasterr/component-element#readme",
+  "dependencies": {
+    "@neomasterr/event-emitter": "^1.1.2"
+  }
 }
