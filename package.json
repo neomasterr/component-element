@@ -1,6 +1,6 @@
 {
   "name": "@neomasterr/component-element",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "",
   "type": "module",
   "main": "component-element.js",
@@ -28,6 +28,6 @@
   },
   "homepage": "https://github.com/neomasterr/component-element#readme",
   "dependencies": {
-    "@neomasterr/event-emitter": "^1.1.2"
+    "@neomasterr/event-emitter": "^1.1.3"
   }
 }
