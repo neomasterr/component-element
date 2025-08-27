@@ -1,5 +1,5 @@
-import ComponentBase from './component-base';
-import ComponentEvents from './component-events';
+import ComponentBase from './component-base.js';
+import ComponentEvents from './component-events.js';
 
 const getObjectConstructorName = object => Object.getPrototypeOf(object).constructor.name;
 

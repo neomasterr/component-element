@@ -1,5 +1,5 @@
-import ComponentBase from './component-base';
-import EventEmitterMixin from '@neomasterr/event-emitter/mixin';
+import ComponentBase from './component-base.js';
+import EventEmitterMixin from '@neomasterr/event-emitter';
 
 const defaultStateName = 'default';
 const defaultStateData = {};
