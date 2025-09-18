@@ -9,7 +9,10 @@ function ComponentEvents(options = {}) {
     ComponentBase.call(this, options);
 
     // примеси
-    EventEmitterMixin.call(this, options.on);
+    EventEmitterMixin.call(this, this /* context */, {
+        on: options.on,
+        once: options.once,
+    });
 
     Object.defineProperty(this, '__stateName', {
         value: defaultStateName,
